@@ -1,14 +1,84 @@
-Pravega - Freeware License
+PRAVEGA FREEWARE END USER LICENSE AGREEMENT
 
-Copyright (c) 2026 Pravega. All rights reserved.
+Copyright (c) 2026 rao-2005 ("the Author"). All rights reserved.
 
-Pravega is freeware, not open-source software.
+Pravega is freeware. It is not open-source software. The source code is
+proprietary and is not licensed to you. By installing or using Pravega you
+agree to this agreement. If you do not agree, do not install or use it.
 
-You may download, install and use the Pravega application free of charge, for
-personal and commercial purposes, and you may share the unmodified installer.
+1. GRANT
+   The Author grants you a free, non-exclusive, non-transferable, revocable
+   licence to install and use Pravega (the "Software") on any number of
+   computers you own or control, for personal, educational or commercial use,
+   at no charge.
 
-You may not: sell it, modify it, decompile or reverse engineer it (except where
-the law gives you that right), remove notices, or distribute modified versions.
+2. REDISTRIBUTION
+   You may share the unmodified, official installer (the .dmg or other
+   package published by the Author) with others, free of charge, provided
+   this agreement stays with it. You may not charge for it, bundle it with
+   other software or offers, or host modified copies.
 
-The software is provided "as is", without warranty of any kind. The authors are
-not liable for any damage or data loss arising from its use.
+3. RESTRICTIONS
+   You may not, and may not allow others to:
+   a) copy, modify, translate, adapt or create derivative works of the Software;
+   b) reverse engineer, decompile, disassemble or try to extract source code,
+      except to the extent the law gives you that right despite this clause;
+   c) remove or alter copyright, licence or attribution notices;
+   d) sell, rent, lease, sublicense or otherwise commercially exploit the
+      Software itself (using it in your own work is allowed);
+   e) use the Software to break the law, infringe others' rights, or transfer
+      files you have no right to transfer;
+   f) interfere with the update service or the signing of updates.
+
+4. OWNERSHIP
+   The Software is licensed, not sold. The Author keeps all rights, title and
+   interest, including all intellectual property, except the limited rights
+   granted above. Third-party components included in the Software remain under
+   their own licences, which allow their inclusion.
+
+5. UPDATES
+   The Software checks a public GitHub repository for new versions each time
+   it starts and can download and install signed updates when you approve
+   them. Updates are covered by this agreement. The Author may stop providing
+   updates at any time.
+
+6. PRIVACY AND NETWORK USE
+   Files are encrypted end to end between the sending and receiving computers.
+   The Author does not run servers that receive your files and does not collect
+   your files, tickets or personal data. To connect computers the Software uses
+   third-party public infrastructure: STUN servers to learn your public address,
+   the public BitTorrent DHT to exchange encrypted connection details, and
+   GitHub to check for updates. Those services can see network addresses
+   (for example your IP address) as is normal for any internet connection. If
+   you set up or use a relay hub, the hub's operator carries your encrypted
+   traffic. You are responsible for the files you send and receive.
+
+7. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS
+   FOR A PARTICULAR PURPOSE, ACCURACY, NON-INFRINGEMENT, OR UNINTERRUPTED OR
+   ERROR-FREE OPERATION. YOU USE IT AT YOUR OWN RISK. Back up important files:
+   a transfer can fail or a file can be lost or overwritten.
+
+8. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHOR IS NOT LIABLE FOR ANY
+   INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR ANY
+   LOSS OF DATA, PROFITS, REVENUE OR GOODWILL, ARISING FROM THE USE OF OR
+   INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY. THE
+   AUTHOR'S TOTAL LIABILITY FOR ANY CLAIM IS LIMITED TO THE AMOUNT YOU PAID FOR
+   THE SOFTWARE, WHICH IS ZERO.
+
+9. TERMINATION
+   This licence ends automatically if you break any term. The Author may end it
+   at any time. On termination you must stop using the Software and delete all
+   copies. Sections 3, 4, 7, 8 and 10 survive termination.
+
+10. GENERAL
+   If a provision is unenforceable, the rest stays in force. This is the entire
+   agreement about the Software. Rights not granted here are reserved. Nothing
+   here limits rights you have by law that cannot be waived.
+
+Third-party notices: Pravega includes open-source components (among them Tauri,
+Rust crates such as quinn, rustls, tokio and blake3, GSAP 3 under its standard
+licence, and the Anybody typeface under the SIL Open Font License). Each stays
+under its own licence.
